@@ -1,4 +1,7 @@
 (ns clojirc.core
+  (:require [clojirc.messages :refer :all]
+            [clojirc.network :refer :all]
+            [reagent.core :as reagent])
   (:gen-class))
 
 (defn -main

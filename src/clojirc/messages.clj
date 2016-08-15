@@ -1,4 +1,4 @@
-(ns clojirc.parsing
+(ns clojirc.messages
   (require [clojure.string :as str]))
 
 (def notice-example ":sinisalo.freenode.net NOTICE * :*** Looking up your hostname...")

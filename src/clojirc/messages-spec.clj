@@ -1,5 +1,5 @@
-(ns clojirc.parsing-spec
-  (:require [clojirc.parsing :refer :all]
+(ns clojirc.messages-spec
+  (:require [clojirc.messages :refer :all]
             [clojure.test :refer [deftest, is, run-tests]]))
 
 (def msg-notice (message ":sinisalo.freenode.net NOTICE * :*** Looking up your hostname..."))
